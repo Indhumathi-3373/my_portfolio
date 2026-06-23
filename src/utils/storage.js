@@ -19,6 +19,17 @@ const DEFAULT_PROJECTS = [
     liveLink: "https://walpsto.vercel.app",
     githubLink: "https://github.com/indhumathi-3373"
   }
+  ,
+  {
+    id: "p3",
+    title: "Indhu — Portfolio Snapshot",
+    description: "A personal portfolio snapshot image used on this site.",
+    category: "Frontend",
+    image: "/indhu.svg",
+    tags: ["Portfolio", "Design"],
+    liveLink: "#",
+    githubLink: "https://github.com/indhumathi-3373"
+  }
 ];
 
 const DEFAULT_FEEDBACK = [
