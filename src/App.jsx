@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import indhu from './assets/indhu.jpeg'
 import { 
   ExternalLink, Mail, MapPin, Code, Database, Sparkles, 
   Cpu, Send, Star, MessageSquare, ArrowRight, CheckCircle2,
@@ -152,7 +153,7 @@ export default function App() {
             {/* The Framed Portrait */}
             <div className="relative w-72 h-96 rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-slate-950/80 z-10 group transition-transform duration-500 hover:scale-[1.02]">
               <img 
-                src="/indhu.jpeg" 
+                src={indhu} 
                 alt="Indhumathi Portrait" 
                 className="w-full h-full object-cover opacity-90 transition-all duration-700 relative z-10"
               />
