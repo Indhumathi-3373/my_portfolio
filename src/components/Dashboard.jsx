@@ -47,14 +47,14 @@ export default function Dashboard({ isOpen, onClose, onAuthChange, onDataChange 
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === 'admin' && password === 'admin123') {
+    if (username === import.meta.env.ADMIN && password === import.meta.env.PASS) {
       sessionStorage.setItem('indhu_admin_logged_in', 'true');
       setIsLoggedIn(true);
       setAuthError('');
       loadData();
       onAuthChange(true);
     } else {
-      setAuthError('Invalid username or password. Try admin / admin123');
+      setAuthError('Invalid username or password. Try again');
     }
   };
 
