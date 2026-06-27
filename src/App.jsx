@@ -204,7 +204,7 @@ export default function App() {
             >
               <div className="glass-light px-3.5 py-1.5 rounded-full border border-white/10 shadow-xl flex items-center gap-1.5 backdrop-blur-md">
                 <MapPin size={10} className="text-indigo-400" />
-                <span className="text-[10px] font-semibold text-slate-300">Erode, India</span>
+                <span className="text-[10px] font-semibold text-slate-300"> India</span>
               </div>
             </ParallaxSection>
 
