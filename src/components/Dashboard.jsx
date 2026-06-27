@@ -47,7 +47,9 @@ export default function Dashboard({ isOpen, onClose, onAuthChange, onDataChange 
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === import.meta.env.ADMIN && password === import.meta.env.PASS) {
+    const admin = import.meta.env.VITE_ADMIN;
+const pass = import.meta.env.VITE_PASS;
+    if (username === admin && password === pass ) {
       sessionStorage.setItem('indhu_admin_logged_in', 'true');
       setIsLoggedIn(true);
       setAuthError('');
@@ -203,7 +205,7 @@ export default function Dashboard({ isOpen, onClose, onAuthChange, onDataChange 
                     required
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    placeholder="Enter admin"
+                    placeholder="Enter ID"
                     className="w-full px-4 py-3 bg-slate-900 border border-slate-800 rounded-lg text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 transition"
                   />
                 </div>
@@ -215,7 +217,7 @@ export default function Dashboard({ isOpen, onClose, onAuthChange, onDataChange 
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Enter admin12345654 "
+                    placeholder="Enter Password"
                     className="w-full px-4 py-3 bg-slate-900 border border-slate-800 rounded-lg text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 transition"
                   />
                 </div>
