@@ -243,7 +243,7 @@ export default function App() {
               </div>
               <h3 className="text-xl font-bold text-white">Who I Am</h3>
               <p className="text-sm md:text-base text-slate-400 leading-relaxed font-light">
-                I am a Computer Science undergraduate student at Shree Venkateshwara Hi-Tech Engineering College. I have a strong interest in building full-stack applications and integrating AI models (like OpenAI and Gemini) to automate workflows.
+                I am a Computer Science undergraduate student at Shree Venkateshwara Hi-Tech Engineering College. I have a strong interest in building full-stack applications and integrating AI models (like OpenAI and Gemini).
               </p>
               <p className="text-sm md:text-base text-slate-400 leading-relaxed font-light">
                 I focus on writing clean code, solving algorithmic problems, and developing secure backends with session authentication and structured databases.
@@ -265,9 +265,9 @@ export default function App() {
                   <p className="text-xs text-indigo-400 font-mono mt-0.5">2023 - 2027 | CGPA: 8.78</p>
                 </div>
                 <div className="border-t border-slate-900/60 pt-2">
-                  <h4 className="text-sm font-semibold text-white">Higher Secondary Certificate</h4>
-                  <p className="text-xs text-slate-400">Komarappa Sengunthar School</p>
-                  <p className="text-xs text-indigo-400 font-mono mt-0.5">Passed: 2023 | Marks: 77.66%</p>
+                  <h4 className="text-sm font-semibold text-white">Higher Secondary </h4>
+                  <p className="text-xs text-slate-400">Komarappa Sengunthar Higher Secondary School</p>
+                  <p className="text-xs text-indigo-400 font-mono mt-0.5">Passed: 2023 | Percentage: 77.66%</p>
                 </div>
               </div>
             </div>
@@ -283,7 +283,7 @@ export default function App() {
               <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-xs text-slate-400 font-light">
                 <div>
                   <span className="block font-semibold text-white text-[11px] uppercase tracking-wider mb-0.5">Languages & Concepts</span>
-                  <span>Java, JavaScript, DSA, OOP</span>
+                  <span>Java, JavaScript, DSA, OOP , CN</span>
                 </div>
                 <div>
                   <span className="block font-semibold text-white text-[11px] uppercase tracking-wider mb-0.5">Backend & DB</span>
@@ -291,11 +291,11 @@ export default function App() {
                 </div>
                 <div className="mt-2">
                   <span className="block font-semibold text-white text-[11px] uppercase tracking-wider mb-0.5">APIs & AI</span>
-                  <span>REST APIs, Webhooks, OpenAI/Gemini</span>
+                  <span>REST APIs, OpenAI/Gemini</span>
                 </div>
                 <div className="mt-2">
                   <span className="block font-semibold text-white text-[11px] uppercase tracking-wider mb-0.5">Tools & Platforms</span>
-                  <span>Git, GitHub, Postman, Vercel</span>
+                  <span>Git, GitHub, Vercel</span>
                 </div>
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function App() {
                 <span className="w-2 h-2 bg-emerald-500 rounded-full absolute" />
                 <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider ml-1">Available for Roles</span>
               </div>
-              <h4 className="text-sm font-bold text-white mt-1">Erode, India</h4>
+              <h4 className="text-sm font-bold text-white mt-1">India</h4>
               <p className="text-[10px] text-slate-500">Open to entry-level software development and full stack developer roles</p>
             </div>
           </div>
